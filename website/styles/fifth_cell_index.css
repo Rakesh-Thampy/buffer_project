@@ -1,0 +1,44 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.bold_p {
+    font-weight: 600;
+}
+
+.fifth_cell_main {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.fifth_cell_engage_main_text,.fifth_cell_analyze_main_text,.fifth_cell_publish-main_text{
+    width: 90%;
+    min-width: 100px;
+    margin: 0 auto;
+}
+.fifth_cell_analyze_main img,.fifth_cell_publish-main img,.fifth_cell_engage_main img{
+    width: 50%;
+}
+
+
+@media only screen and (min-width:1020px){
+    .fifth_cell_publish-main,.fifth_cell_analyze_main,.fifth_cell_engage_main{
+        width: 90%;
+        min-width: 100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+    .fifth_cell_analyze_main{
+        flex-direction: row-reverse;
+    }
+    .fifth_cell_engage_main_text,.fifth_cell_analyze_main_text,.fifth_cell_publish-main_text{
+        width: 40%;
+    }
+}
