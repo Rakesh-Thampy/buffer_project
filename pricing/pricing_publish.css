@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pricing_publish_main {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    margin: 1px auto;
+}
+
+.pricing_publish_main>div {
+    height: auto;
+    width: 22%;
+    border: 3px groove lightblue;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.pricing_publish_main>div>div:nth-child(2) {
+    height: 25%;
+    width: 100%;
+}
+
+.pricing_publish_main>div>div:nth-child(2)>img {
+    width: 50%;
+    height: 100%;
+}
+
+.pricing_publish_main>div>div:nth-child(4) {
+    color: blue;
+    font-weight: 500;
+}
+
+.pricing_publish_main>div>div:nth-child(5)>ul {
+    list-style: none;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.pricing_publish_main>div>div:nth-child(5)>ul>li>span {
+    color: blue;
+}
+
+.pricing_publish_main>div>div:nth-child(6)>button {
+    height: 45px;
+    width: 90%;
+    background-color: rgba(103, 103, 224, 0.89);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.pricing_publish_main>div>div:nth-child(7) {
+    color: rgb(81, 94, 94);
+}
+
+.toggle_switch {
+    position: relative;
+    transform: translate(90%, -60%);
+    width: auto;
+    height: 2%;
+    margin-bottom: 5px;
+}
+
+
+/* /* position: relative;
+    top: 5%;
+    left: 90%;
+    width: auto;
+    height: 2%;
+    margin-bottom: 5px;
+    border: 1px solid black; */
+
+.switch_button {
+    width: 40px;
+    height: 20px;
+    background-color: rgb(129, 109, 185);
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.switch_button::before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: white;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+}
+
+input[type=checkbox]:checked+.switch_button::before {
+    left: 22px;
+    background-color: white;
+}
