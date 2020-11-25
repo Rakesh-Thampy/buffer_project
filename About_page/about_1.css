@@ -1,0 +1,35 @@
+.container_about_1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.about1{
+    margin-top: 180px;
+}
+.about_box1_img{
+    border-style: none;
+     max-width: 100%;
+     margin-left: 20%;
+}
+.box1_p{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 22%;
+    font-size: 18px;
+    margin-bottom: 60px;
+    background-image : url("https://static.buffer.com/marketing/static/background/about-map.gif");
+
+}
+.box1_a{
+    background-color: #2c4BBF;
+    margin: 30px 18% 0px 40%;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
