@@ -1,0 +1,55 @@
+.box4 {
+    width: 100%;
+    background-color: rgb(44, 75, 255);
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+.wrap_1 {
+    width: 80%;
+    min-width: 10px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.wrap_1 p {
+    text-align: left;
+    padding: 3%;
+    font-size: 15px;
+}
+
+.wrap_1 span {
+    display: none;
+}
+
+.box4_img {
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width:768px) {
+    .box4 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .wrap_1 p {
+        text-align: center;
+    }
+    .wrap_1 span {
+        display: block;
+    }
+}
+
+@media only screen and (min-width:1020px) {
+    .wrap_1 {
+        text-align: left;
+    }
+    .box4 p {
+        text-align: left;
+        padding-left: 0;
+    }
+}
