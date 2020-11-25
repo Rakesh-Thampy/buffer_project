@@ -15,7 +15,7 @@ nav{
     top: 0;
     font-size: 18px;
     background-color: white;
-    z-index: 1000;
+    z-index: 5;
 }
 .nav_links{
     display: flex;
@@ -195,10 +195,11 @@ ul.btn_links{
 }
 .products{
     height: 250px;
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    z-index: 2;
+    z-index: 10;
 }

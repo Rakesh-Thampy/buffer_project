@@ -29,6 +29,9 @@ body{
     text-align: center;
     margin-top: 8%;
 }
+.twitter_logo > .fa-twitter{
+    color: skyblue;
+}
 .cards{
     display: block;
 }
@@ -41,8 +44,8 @@ body{
     border-radius: 3%;
     position: relative;
 }
-.card_1:hover{
-    background-color: rgb(189, 220, 252);
+.cards div:hover{
+    background-color: rgb(203, 227, 252);
 }
 .card_1 > div:nth-child(1){
     width: 95%;
@@ -175,12 +178,14 @@ body{
 }
 .started_now{
     width: 100%;
-    height: 340px;
+    min-height: 340px;
+    height: auto;
     background-color: rgb(44, 75, 255);
     color:white;
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    padding-bottom: 40px;
 }
 .started_now >div:nth-child(1){
     width: 90%;
@@ -199,7 +204,7 @@ body{
     color: white;
 }
 .started_now button{
-    background-color: tomato;
+    background-color: rgb(241, 132, 113);
 }
 .started_now button:hover{
     background-color: rgb(247, 70, 39);
@@ -216,15 +221,11 @@ body{
     font-size: 12px;
     margin: 5px;
 }
-
-
-
-
-
-
-
-
-
+.fa-check{
+    font-size: .5rem;
+    color: grey;
+    margin-left: 1px;
+}
 
 @media only screen and (min-width:792px){
     .cards{
@@ -238,8 +239,14 @@ body{
 }
 
 @media only screen and (min-width:648px){
-    .started_now button,.buffer_btn {
+    .started_now button {
         width: 40%;
+        max-width: 200px;
+    }
+    .started_now >div:nth-child(1){
+        width: 60%;
+    }
+    .buffer_btn{
         max-width: 250px;
     }
 }
