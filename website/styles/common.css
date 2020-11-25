@@ -201,5 +201,8 @@ ul.btn_links{
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    z-index: 10;
+    z-index: 1005;
+}
+.cross{
+    z-index: 1010;
 }
