@@ -15,6 +15,7 @@ nav{
     top: 0;
     font-size: 18px;
     background-color: white;
+    z-index: 5;
 }
 .nav_links{
     display: flex;
@@ -64,13 +65,13 @@ ul.btn_links{
 .btn_buff{
     border: none;
     background-color: rgb(44, 75, 255);
-    min-width: 180px;
+    min-width: 200px;
     height: 40px;
     color: white;
     margin-right: 18px;
     border-radius: 7px;
-    padding: 1%;
-    font-size: 16px;
+    padding: 1.5%;
+    font-size: 18px;
 }
 .btn_buff:hover{
     background-color:  rgb(20, 50, 219);
@@ -79,11 +80,11 @@ ul.btn_links{
     border: 1px solid rgb(44, 75, 255);
     color: rgb(44, 75, 255);
     background-color: white;
-    min-width: 60px;
+    min-width: 80px;
     height: 40px;
     border-radius: 7px;
-    padding: 1%;
-    font-size: 16px;
+    padding: 1.5%;
+    font-size: 17px;
 }
 .btn_log:hover{
     background-color:lightblue;
@@ -194,10 +195,14 @@ ul.btn_links{
 }
 .products{
     height: 250px;
+    position: relative;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    z-index: 2;
+    z-index: 1005;
+}
+.cross{
+    z-index: 1010;
 }

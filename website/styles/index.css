@@ -7,9 +7,9 @@ body{
 #features{
     height: auto;
     width: 100%;
-    background-color: #E8E8E8;
-    padding-top: 10px;
-    padding-top: 5%;
+    background-color: rgb(245, 245, 245);
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #features > div:nth-child(1){
     width: 100%;
@@ -65,21 +65,20 @@ body{
     height: auto;
     width: 100%;
     background-color: rgb(245, 245, 245);
-    padding-top: 10px;
-    margin-top: 15px;
     z-index: .5;
 }
 .company_list{
     margin: 0 auto;
     min-width: 100px;
     width: 80%;
-    padding-left: 6%;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .company_list div{
-    height: 32px;
+    height: 17px;
     width: 70%;
-    margin: 5%;
+    margin: 8%;
     text-align: center;
 }
 
@@ -136,9 +135,9 @@ body{
     grid-area: c15;
 }
 .cl_16{
-    max-width: 51%;
+    /* max-width: 51%;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; */
     grid-area: c16;
 }
 .company_list{
@@ -158,8 +157,8 @@ body{
 /* comp section starts here */
 .comp_list img{
 width: 100px;
-height: 20px;
-margin:3%;
+height: 18px;
+margin:4%;
 filter: grayscale(100%);
 opacity: 40%;
 }
@@ -278,7 +277,120 @@ grid-area: cp7;
     color: grey;
 }
 
+/* customers section starts here */
+.customers{
+    width: 90%;
+    text-align: center;
+    min-width: 50px;
+    height: auto;
+    margin: 40px auto;
+}
+.cus_1,.cus_2,.cus_3,.cus_4{
+    margin: 3%;
+}
+.cus_cards_1 h1{
+    color: rgb(44, 75, 255);
+}
+
+
+
+/* get started section */
+.started_now{
+    width: 100%;
+    min-height: 320px;
+    height: auto;
+    background-color: rgb(44, 75, 255);
+    color:white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.started_now >div:nth-child(1){
+    width: 90%;
+    min-width: 100px;
+    margin: 0px auto 35px auto;
+    padding-top: 40px;
+}
+.started_now button,.buffer_btn{
+    width: 90%;
+    min-width: 100px;
+    margin:2px auto;
+    border: none;
+    padding:25px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.started_now button{
+    background-color: tomato;
+}
+.started_now button:hover{
+    background-color: rgb(247, 70, 39);
+}
+.credit{
+    width: 30%;
+    min-width: 100px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.credit p{
+    font-size: 12px;
+    margin: 5px;
+}
+.fa-check{
+    font-size: .5rem;
+    color: grey;
+    margin-left: 1px;
+}
+
+.started_now{
+    width: 100%;
+    min-height: 340px;
+    height: auto;
+    background-color: rgb(44, 75, 255);
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.started_now >div:nth-child(1){
+    width: 90%;
+    min-width: 100px;
+    margin: 35px auto;
+    padding-top: 40px;
+}
+.started_now button,.buffer_btn{
+    width: 90%;
+    min-width: 100px;
+    margin:2px auto;
+    border: none;
+    padding:25px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.started_now button{
+    background-color: rgb(248, 129, 108);
+}
+.started_now button:hover{
+    background-color: rgb(247, 70, 39);
+}
+.credit{
+    width: 30%;
+    min-width: 100px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.credit p{
+    font-size: 12px;
+    margin: 5px;
+}
+
 /* different screen sizes for features section */
+
 @media only screen and (min-width: 642px){
     .feature_list{
         display: grid;
@@ -291,6 +403,13 @@ grid-area: cp7;
     }
     #features > div:nth-child(1){
         width: 50%;
+    }
+
+    /* customers section */
+    .cus_cards_1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
 }
 @media only screen and (min-width:1020px){
@@ -351,5 +470,14 @@ grid-area: cp7;
 @media only screen and (min-width:1020px){
     .pub_content{
         text-align: left;
+    }
+}
+@media only screen and (min-width:648px){
+    .started_now button,.buffer_btn {
+        width: 40%;
+        max-width: 200px;
+    }
+    .started_now >div:nth-child(1){
+        width: 60%;
     }
 }

@@ -89,6 +89,12 @@ p {
     height: 100%;
     align-self: center;
 }
+.width{
+    text-align: center;
+    width: 70%;
+    min-width: 50px;
+    margin: 15px auto;
+}
 
 @media only screen and (min-width:1020px){
     .ninth_cell_logo_outer{

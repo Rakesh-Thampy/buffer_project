@@ -5,6 +5,7 @@
   width: 100%;
   height: auto;
   background-color: rgba(245, 197, 67, 0.938);
+  padding-top: 50px;
 }
 .container2_new{
   width: 80%;
@@ -25,6 +26,7 @@
   background-color: white;
   margin-bottom: 5%;
 }
+
 .container2_box_img{
   width: 100%;
   height: 50%;
@@ -68,13 +70,16 @@
 .container_3{
   width: 400px;
   height: 500px;
-  border: 1px solid black;
+}
+.cont_3{
+  width: 100%;
+  height: 100%;
   background-color: rgb(245, 245, 245);
 }
 .container3_box1{
   width: 55%;
   min-width: 100px;
-  margin: 10px auto;
+  margin: 0px auto 20px auto;
   text-align: center;
   padding-top: 5%;
 } 
@@ -95,7 +100,7 @@
 .people_img{
   width: 60%;
   min-width: 100px;
-  margin: 10px auto;
+  margin: 0 auto;
   min-height: 100px;
 }
 .people_img img{
