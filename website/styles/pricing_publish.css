@@ -1,0 +1,200 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pricing_publish_main {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 90%;
+    margin: 10px auto;
+    min-width: 400px;
+    margin-bottom: 40px;
+}
+
+.pricing_publish_main>div {
+    height: auto;
+    width: 22%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 6%;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 2%;
+}
+.container_for_toggle >p{
+    margin: auto;
+}
+.pricing_publish_main>div>div:nth-child(2) {
+    height: 25%;
+    width: auto;
+    margin: 20px;
+}
+
+.pricing_publish_main>div>div:nth-child(2)>img {
+    width: 50%;
+    height: 100%;
+}
+
+.pricing_publish_main>div>div:nth-child(4) {
+    color: blue;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.pricing_publish_main>div>div:nth-child(5)>ul {
+    list-style: none;
+    text-align: left;
+    line-height: 2;
+    margin: 20px;
+}
+
+.pricing_publish_main>div>div:nth-child(5)>ul>li>span {
+    color: blue;
+}
+
+.pricing_publish_main>div>div:nth-child(6)>button {
+    padding: 14px;
+    width: 90%;
+    background-color: rgb(44, 75, 255);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.pricing_publish_main>div>div:nth-child(7) {
+    color: rgb(81, 94, 94);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* ------------------- styling for toggle switch starts here ------------ */
+
+.container_for_toggle {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+    min-width: 340px;
+    height: auto;
+    color: blue;
+    margin-left: 60%;
+}
+
+.outter_switch {
+    height: 50px;
+    width: auto;
+}
+
+.toggle_switch {
+    width: auto;
+    padding: 10px;
+    margin-bottom: 5px;
+    right: 10;
+    top: 10;
+    margin: 8px;
+}
+
+.switch_button {
+    width: 40px;
+    height: 20px !important;
+    background-color: lightgrey !important;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.switch_button::before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: rgb(44, 75, 255)!important;
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+}
+
+.visually-hidden {
+    display: none;
+}
+
+input[type=checkbox]:checked+.switch_button::before {
+    left: 22px;
+    background-color: rgb(245, 245, 245);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .pricing_publish_main {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing_publish_main>div {
+        margin: 10px auto;
+        width: auto;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .pricing_publish_main {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing_publish_main>div {
+        margin: 10px auto;
+        width: auto;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .pricing_publish_main {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing_publish_main>div {
+        margin: 10px auto;
+        min-width: auto;
+        max-width: auto;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .pricing_publish_main {
+        display: flex;
+        flex-direction: row;
+    }
+    .pricing_publish_main>div {
+        min-width: 300px;
+        max-width: 300px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .pricing_publish_main {
+        display: flex;
+        flex-direction: row;
+    }
+    .pricing_publish_main>div {
+        min-width: 300px;
+        max-width: 300px;
+    }
+}

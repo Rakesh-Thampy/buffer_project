@@ -1,0 +1,229 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* for the main outside box */
+
+.pricing_analyze_box_main {
+    width: 80%;
+    display: flex;
+    justify-content:space-around;
+    margin: 40px auto;
+    
+}
+
+#publish_switch,#analyze_switch{
+    position: relative;
+    z-index: 2;
+    box-shadow: 4px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin: 0 4px;
+    border: none;
+    cursor: pointer;
+}
+#publish_switch img,#analyze_switch img{
+    width: 30%;
+}
+.main_container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* for the two flex boxes inside */
+
+.pricing_analyze_box_main>div {
+    height: auto;
+    width: 37%;
+    max-width: 320px;
+    min-width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 6%;
+    padding: 3%;
+    margin-bottom: 40px !important;
+}
+
+
+/* for the main outside box */
+
+.pricing_analyze_box_main>div>div:nth-child(2) {
+    height: 25%;
+    width: auto;
+    margin: 20px;
+}
+
+
+/* --------for all the images inside the flex box ------- */
+
+.pricing_analyze_box_main>div>div:nth-child(2)>img {
+    width: 50%;
+    height: 100%;
+}
+
+
+/* ---------- */
+
+.pricing_analyze_box_main>div>div:nth-child(4) {
+    color: blue;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.pricing_analyze_box_main>div>div:nth-child(5)>ul {
+    list-style: none;
+    text-align: left;
+    line-height: 2;
+}
+
+.pricing_analyze_box_main>div>div:nth-child(5)>ul>li>span {
+    color: blue;
+}
+
+.pricing_analyze_box_main>div>div:nth-child(6)>button {
+    padding: 15px;
+    width: 90%;
+    background-color:  rgb(44, 75, 255);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.pricing_analyze_box_main>div>div:nth-child(6)>button:hover{
+    background-color: blue;
+}
+
+.pricing_analyze_box_main>div>div:nth-child(7) {
+    margin-top: 4px;
+    color: rgb(81, 94, 94);
+}
+
+
+/* ------------------- styling for toggle switch starts here ------------ */
+
+.container_for_toggle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 280px;
+    height: auto;
+    color: blue;
+    margin-left: 60%;
+}
+
+.outter_switch {
+    height: 50px;
+    width: auto;
+}
+
+.toggle_switch {
+    width: auto;
+    height: 40px;
+    margin-bottom: 5px;
+    right: 10;
+    top: 10;
+}
+
+
+.switch_button::before {
+    content: "";
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: rgb(129, 109, 185);
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+}
+
+
+
+input[type=checkbox]:checked+.switch_button::before {
+    left: 22px;
+    background-color: rgb(109, 185, 160);
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .pricing_analyze_box_main {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing_analyze_box_main>div {
+        margin: 10px auto;
+        min-width: 300px;
+        width: auto;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .pricing_analyze_box_main {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing_analyze_box_main>div {
+        margin: 10px auto;
+        min-width: 300px;
+        max-width: auto;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .pricing_analyze_box_main {
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing_analyze_box_main>div {
+        margin: 10px auto;
+        min-width: 300px;
+        width: auto;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .pricing_analyze_box_main {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        margin: 1px auto;
+    }
+    .pricing_analyze_box_main>div {
+        min-width: 300px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .pricing_analyze_box_main {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        height: auto;
+        width: auto;
+        margin: 1px auto;
+    }
+    .pricing_analyze_box_main>div {
+        min-width: 300px;
+    }
+}
