@@ -22,13 +22,22 @@ table {
 }
 
 .table_cell_length {
-    width: 30%;
+    width: 40%;
+}
+#first_col{
+    min-width: 240px;
+}
+#top_row{
+    max-width: 240px;
 }
 
 .table_head_cell_length {
     width: 40%;
+    min-width: 240px !important;
 }
-
+.table_rows_height .table_head_cell_length{
+    max-width: 194px;
+}
 .border_botom_for_head {
     border-bottom: 2px black solid;
 }
