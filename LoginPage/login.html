@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <title>LoginPage</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login.js">
+
+    
+    <body>
+         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+          
+        <div id="id01" class="login_page">
+            <div class="container">
+                <h2>Log in</h2>
+                <div>  <b>Email Address</b> </div>
+                <label for="uname"></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <div><b>Password</b> </div>
+                <label for="psw"></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <div>  
+                <button type="submit">Login</button>
+                </div> 
+                
+                <div>
+                    <a href=""> Create an account</a>
+            
+                    <a href=""> forgot your password?</a>
+                </div>
+             
+                <div>
+                    <p>We no longer support social sign on. Please click
+                    <a href=""> here</a>
+                    to set your password and access your account.
+                </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
