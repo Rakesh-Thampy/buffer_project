@@ -1,0 +1,82 @@
+.started_now {
+    width: 100%;
+    min-height: 340px;
+    height: auto;
+    background-color: rgb(44, 75, 255);
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.started_now>div:nth-child(1) {
+    width: 90%;
+    min-width: 100px;
+    margin: 35px auto;
+    padding-top: 40px;
+}
+
+.started_now button,
+.buffer_btn {
+    width: 90%;
+    min-width: 100px;
+    margin: 2px auto;
+    border: none;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.started_now button {
+    background-color: rgb(241, 132, 113);
+}
+
+.started_now button:hover {
+    background-color: rgb(247, 70, 39);
+}
+
+.credit {
+    width: 30%;
+    min-width: 100px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.credit p {
+    font-size: 12px;
+    margin: 5px;
+}
+
+.fa-check {
+    font-size: .5rem;
+    color: grey;
+    margin-left: 1px;
+}
+
+@media only screen and (min-width:792px) {
+    .cards {
+        width: 80%;
+        min-width: 100px;
+        margin: 20px auto;
+        height: 100%;
+        display: grid;
+        grid-template-areas: "cd_1 cd_2" "cd_3 cd_4" "cd_5 cd_6" "cd_7 cd_8" "cd_9 cd_10" "cd_11 cd_12";
+    }
+}
+
+@media only screen and (min-width:648px) {
+    .started_now button {
+        width: 40%;
+        max-width: 200px;
+    }
+    .started_now>div:nth-child(1) {
+        width: 60%;
+    }
+    .buffer_btn {
+        max-width: 250px;
+    }
+}
