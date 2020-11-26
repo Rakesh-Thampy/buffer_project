@@ -277,7 +277,24 @@ grid-area: cp7;
     color: grey;
 }
 
+/* customers section starts here */
+.customers{
+    width: 90%;
+    text-align: center;
+    min-width: 50px;
+    height: auto;
+    margin: 40px auto;
+}
+.cus_1,.cus_2,.cus_3,.cus_4{
+    margin: 3%;
+}
+.cus_cards_1 h1{
+    color: rgb(44, 75, 255);
+}
 
+
+
+/* get started section */
 .started_now{
     width: 100%;
     min-height: 320px;
@@ -321,8 +338,59 @@ grid-area: cp7;
     font-size: 12px;
     margin: 5px;
 }
+.fa-check{
+    font-size: .5rem;
+    color: grey;
+    margin-left: 1px;
+}
+
+.started_now{
+    width: 100%;
+    min-height: 340px;
+    height: auto;
+    background-color: rgb(44, 75, 255);
+    color:white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.started_now >div:nth-child(1){
+    width: 90%;
+    min-width: 100px;
+    margin: 35px auto;
+    padding-top: 40px;
+}
+.started_now button,.buffer_btn{
+    width: 90%;
+    min-width: 100px;
+    margin:2px auto;
+    border: none;
+    padding:25px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.started_now button{
+    background-color: rgb(248, 129, 108);
+}
+.started_now button:hover{
+    background-color: rgb(247, 70, 39);
+}
+.credit{
+    width: 30%;
+    min-width: 100px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.credit p{
+    font-size: 12px;
+    margin: 5px;
+}
 
 /* different screen sizes for features section */
+
 @media only screen and (min-width: 642px){
     .feature_list{
         display: grid;
@@ -335,6 +403,13 @@ grid-area: cp7;
     }
     #features > div:nth-child(1){
         width: 50%;
+    }
+
+    /* customers section */
+    .cus_cards_1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
     }
 }
 @media only screen and (min-width:1020px){
@@ -400,6 +475,9 @@ grid-area: cp7;
 @media only screen and (min-width:648px){
     .started_now button,.buffer_btn {
         width: 40%;
-        max-width: 250px;
+        max-width: 200px;
+    }
+    .started_now >div:nth-child(1){
+        width: 60%;
     }
 }
