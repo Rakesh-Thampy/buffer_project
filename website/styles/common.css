@@ -66,11 +66,10 @@ ul.btn_links{
     border: none;
     background-color: rgb(44, 75, 255);
     min-width: 200px;
-    height: 40px;
     color: white;
     margin-right: 18px;
     border-radius: 7px;
-    padding: 1.5%;
+    padding: 14px;
     font-size: 18px;
 }
 .btn_buff:hover{
@@ -81,9 +80,8 @@ ul.btn_links{
     color: rgb(44, 75, 255);
     background-color: white;
     min-width: 80px;
-    height: 40px;
     border-radius: 7px;
-    padding: 1.5%;
+    padding: 14px;
     font-size: 17px;
 }
 .btn_log:hover{
