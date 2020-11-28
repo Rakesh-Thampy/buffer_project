@@ -38,7 +38,7 @@ body{
 .card_1,.card_2,.card_3,.card_4,.card_5,.card_6,.card_7,.card_8,.card_9,.card_10,.card_10,.card_11,.card_12{
     width: 80%;
     min-width: 100px;
-    height: auto;
+    height: fit-content;
     margin: 20px auto;
     border: 1px solid grey;
     border-radius: 3%;
@@ -173,6 +173,10 @@ body{
     margin: 5px;
     cursor: pointer;
 }
+.box4{
+    background-color: white!important;
+    color: black !important;
+}
 .carou_1:hover,.carou_2:hover,.carou_3:hover,.carou_1:active,.carou_2:active,.carou_3:active{
     color:black
 }
@@ -225,6 +229,9 @@ body{
     font-size: .5rem;
     color: grey;
     margin-left: 1px;
+}
+#three,#two{
+    display: none;
 }
 
 @media only screen and (min-width:792px){
