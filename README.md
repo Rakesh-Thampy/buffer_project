@@ -2,7 +2,7 @@
 
 ----------------- **Introduction** ------------
 
-For our first project the problem statement given to us,  was to create a copy of [Buffer,s](https://buffer.com/) website. Buffer is a social media management platform that helps their customers build their brands and grow their businesses on social media.
+For our first project the problem statement given to us,  was to create a copy of [Buffer's](https://buffer.com/) website. Buffer is a social media management platform that helps their customers build their brands and grow their businesses on social media.
 
 --------------- **Team Members** ---------------
 
