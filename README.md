@@ -31,31 +31,31 @@ For our first project the problem statement given to us,  was to create a copy o
 -----------------Website detail----------------
 
 
-[**Main Page](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/index.html)
+[**Main Page**](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/index.html)
 
 Nav - Combination of JavaScript and Animation has been used (It has been given an absolute position with transform(x) going from 100 to 0)
 Burger Button - Javascrict is used to switch between the class name when the button is clicked.
 Flex - We have used flex to attain responsiveness of our page.
 images - for images we have taken some from the website itself.
 
-[**Customers](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/customers.html)
+[**Customers**](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/customers.html)
 
 Twitter cards has been creatd using Grid.
 Pseudo classes used to change the color of texts and icons.
 
-[**About us](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/about_us.html)
+[**About us**](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/about_us.html)**
 
 Flex has been used for responsiveness
 Backgroud images have been taken form the website
 Poppins font has been used for About us
 
-[**Pricing](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/pricing.html)
+[**Pricing**](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/pricing.html)
 
 Javascript used to switch between publish and Alnalyze tabs
 flex has been used for responsiveness
 tables has been used
 
-**Common 
+**Common**
            
 
 
