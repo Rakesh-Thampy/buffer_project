@@ -69,9 +69,9 @@ Website | detail
 [W3school](https://www.w3schools.com)  | W3school's resources has been used to get more information.
 [SVGporn](https://svgporn.com/) | SVGporn has been used for images and logos
 [Font Awesome](https://fontawesome.com/) | Fontawesome has been used to get some icons.
-[Google fonts](https://fonts.google.com/)  | Page's default font is (Roboto sa
+[Google fonts](https://fonts.google.com/)  | Fonts used throughout he page has been taken from Google fonts.
 [Google](https://google.co.in/) | Google has been used to get some quick info regarding some elements
-[Buffer](https://buffer.com/)  | The page was given us to be replicated and images have been used from this site.
+[Buffer](https://buffer.com/)  | The page was given us to be replicated and some images have been used from this site.
 
 
 
