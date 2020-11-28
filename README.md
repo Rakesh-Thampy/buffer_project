@@ -43,7 +43,7 @@ images - for images we have taken some from the website itself.
 Twitter cards has been creatd using Grid.
 Pseudo classes used to change the color of texts and icons.
 
-[**About us**](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/about_us.html)**
+[**About us**](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/about_us.html)
 
 Flex has been used for responsiveness
 Backgroud images have been taken form the website
