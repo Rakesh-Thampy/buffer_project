@@ -1,5 +1,35 @@
 # buffer_project
-Website detail----------------
+
+-----------------Introduction------------
+
+The problem statement given to us  was to create a copy of https://buffer.com/. Buffer is a social media management platform that helps their customers build their brands and grow their businesses on social media.
+
+---------------Team Members---------------
+
+1.) Ashish Bhagat - (https://github.com/ashishbhagat123)
+
+2.) Aman Singh - (https://github.com/AmanSingh-code)
+
+3.) Rakesh Thampy - (https://github.com/Rakesh-Thampy/)
+
+------Comparison of Original and CLone page---------
+
+> A screenshot of original landing page
+
+![Landing Page Original](https://github.com/Rakesh-Thampy/buffer_project/blob/main/screenshots/landing_original.png)
+
+            vs
+
+> A screenshot of clone landing page
+
+![Landing Page clone](https://github.com/Rakesh-Thampy/buffer_project/blob/main/screenshots/landing_copy.png)
+
+
+--------------Languages used------------------
+
+> Combination of HTML, CSS and Javascript has been used to achieve the desired outcome.
+
+-----------------Website detail----------------
 
 1.) Main Page
 Nav - Combination of JavaScript and Animation has been used (It has been given an absolute position with transform(x) going from 100 to 0)
@@ -13,7 +43,7 @@ Pseudo classes used to change the color of texts and icons.
 
 3.) About us
 Flex has been used for responsiveness
-images have been taken form the website
+Backgroud images have been taken form the website
 Poppins font has been used for About us
 
 4.) Pricing
@@ -27,14 +57,21 @@ tables has been used
            
 
 ------------------------------Resorces used-----------------------------
-https://www.w3schools.com -  W3school's resources has been used to get more information.
-https://svgporn.com/ -  SVGporn has been used for images and logos
-https://google.co.in/ - google has been used to get some quick info regarding some elements
-https://fontawesome.com/ - Fontawesome has been used to get some icons
-https://fonts.google.com/ - Page's default font is (Roboto sans) google fonts has used for this.
-https://buffer.com/ - The page was given us to be replicated and images have been used from this site.
+
+1.) https://www.w3schools.com -  W3school's resources has been used to get more information.
+
+2.) https://svgporn.com/ -  SVGporn has been used for images and logos
+
+3.) https://google.co.in/ - google has been used to get some quick info regarding some elements
+
+4.) https://fontawesome.com/ - Fontawesome has been used to get some icons.
+
+5.) https://fonts.google.com/ - Page's default font is (Roboto sans) google fonts has used for this.
+
+6.) https://buffer.com/ - The page was given us to be replicated and images have been used from this site.
 
 
-brief on our first Project-------------------
+------------------A short blog  that summarizes our first Project-------------------
+
 https://amansingh17oct.medium.com/first-project-team-aluminium-1c0beb9f97f8
 
