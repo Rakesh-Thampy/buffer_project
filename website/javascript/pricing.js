@@ -21,6 +21,12 @@ publish.addEventListener('click', function(event) {
     event.preventDefault()
 })
 
+
+var working = document.getElementsByClassName('switch_button')
+working.addEventListener('toggle',function(){
+    console.log('working')
+})
+
 // function display_publish() {
 //     if (a == 1) {
 //         return 1
