@@ -2,7 +2,7 @@
 
 -----------------Introduction------------
 
-The problem statement given to us  was to create a copy of https://buffer.com/. Buffer is a social media management platform that helps their customers build their brands and grow their businesses on social media.
+For our first project the problem statement given to us,  was to create a copy of [Buffer,s](https://buffer.com/) website. Buffer is a social media management platform that helps their customers build their brands and grow their businesses on social media.
 
 ---------------Team Members---------------
 
@@ -24,51 +24,56 @@ The problem statement given to us  was to create a copy of https://buffer.com/. 
 
 ![Landing Page clone](https://github.com/Rakesh-Thampy/buffer_project/blob/main/screenshots/landing_copy.png)
 
-
 --------------Languages used------------------
 
 > Combination of HTML, CSS and Javascript has been used to achieve the desired outcome.
 
 -----------------Website detail----------------
 
-1.) Main Page
+
+[**Main Page](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/index.html)
+
 Nav - Combination of JavaScript and Animation has been used (It has been given an absolute position with transform(x) going from 100 to 0)
 Burger Button - Javascrict is used to switch between the class name when the button is clicked.
 Flex - We have used flex to attain responsiveness of our page.
 images - for images we have taken some from the website itself.
 
-2.) Customers
+[**Customers](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/customers.html)
+
 Twitter cards has been creatd using Grid.
 Pseudo classes used to change the color of texts and icons.
 
-3.) About us
+[**About us](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/about_us.html)
+
 Flex has been used for responsiveness
 Backgroud images have been taken form the website
 Poppins font has been used for About us
 
-4.) Pricing
+[**Pricing](https://github.com/Rakesh-Thampy/buffer_project/blob/main/website/html/pricing.html)
+
 Javascript used to switch between publish and Alnalyze tabs
 flex has been used for responsiveness
 tables has been used
 
-5.) Common
+**Common 
+           
+
+
 - Header - Poopins font is used 
 - Footer - Social Media of Buffer has been attached.
            
 
 ------------------------------Resorces used-----------------------------
 
-1.) https://www.w3schools.com -  W3school's resources has been used to get more information.
+Website | detail
+------------ | -------------
+[W3school](https://www.w3schools.com)  | W3school's resources has been used to get more information.
+[SVGporn](https://svgporn.com/) | SVGporn has been used for images and logos
+[Font Awesome](https://fontawesome.com/) | Fontawesome has been used to get some icons.
+[Google fonts](https://fonts.google.com/)  | Page's default font is (Roboto sa
+[Google](https://google.co.in/) | Google has been used to get some quick info regarding some elements
+[Buffer](https://buffer.com/)  | The page was given us to be replicated and images have been used from this site.
 
-2.) https://svgporn.com/ -  SVGporn has been used for images and logos
-
-3.) https://google.co.in/ - google has been used to get some quick info regarding some elements
-
-4.) https://fontawesome.com/ - Fontawesome has been used to get some icons.
-
-5.) https://fonts.google.com/ - Page's default font is (Roboto sans) google fonts has used for this.
-
-6.) https://buffer.com/ - The page was given us to be replicated and images have been used from this site.
 
 
 ------------------A short blog  that summarizes our first Project-------------------
