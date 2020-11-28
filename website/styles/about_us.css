@@ -133,6 +133,22 @@ h1,h2,h3{
     margin: 50px auto;
     cursor: pointer;
 }
+#drop_1 ul{
+    display: none;
+    margin-left: 30px;
+    width: 95%;
+}
+#drop_1:hover ul{
+    display: block;
+}
+#drop_1 ul > li{
+    line-height: 1.2;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+li::marker{
+    color: grey;
+}
 
 .grey{
     color: grey;
