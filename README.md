@@ -87,11 +87,7 @@ Website | detail
 
 
 
------------------- **Blog by each team member** -------------------
 
-Gayathry - [blog]()
-Saravana - [blog]()
-Rakesh - [blog](https://rakesh17.hashnode.dev/working-on-a-team-project-as-a-beginner-using-html-css-and-javascript)
 
 
 
